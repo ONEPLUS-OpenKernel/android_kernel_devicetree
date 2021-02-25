@@ -493,3 +493,12 @@
 	adsp-fw-bit-values = <0x2>;
 };
 
+&qupv3_se9_i2c {
+	status = "okay";
+
+	fsa4480: fsa4480@42 {
+		compatible = "qcom,fsa4480-i2c";
+		reg = <0x42>;
+	};
+};
+
